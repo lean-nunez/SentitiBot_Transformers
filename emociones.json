@@ -1,3 +1,4 @@
+
 {
   "saludos": [
     {
@@ -13,6 +14,7 @@
       "texto": "¡Hola! Recuerda que cada nuevo amanecer es una nueva oportunidad para crecer y brillar. ¿Listo/a para empezar?"
     }
   ],
+
   "sentimientos_negativos": {
     "tristeza": [
       {
@@ -22,8 +24,13 @@
       {
         "id": "tristeza_02",
         "texto": "Lamento que te sientas triste. ¿Qué tal si hacemos una pequeña pausa y respiramos profundamente tres veces juntos? A veces, eso ayuda a calmar el corazón."
+      },
+      {
+        "id": "tristeza_03",
+        "texto": "Lo que sentís ahora no define quién sos. Estás atravesando una emoción, no convirtiéndote en ella."
       }
     ],
+
     "ansiedad": [
       {
         "id": "ansiedad_01",
@@ -31,9 +38,14 @@
       },
       {
         "id": "ansiedad_02",
-        "texto": "Tu mente te está intentando proteger, aunque se sienta intenso. Recuerda: eres más grande que tu ansiedad. Respira hondo. Estás a salvo."
+        "texto": "Tu mente te está intentando proteger, aunque se siente intenso. Respira. Vos ya sobreviviste a días como este."
+      },
+      {
+        "id": "ansiedad_03",
+        "texto": "Recordá: no tenés que solucionar todo ahora. Solo tenés que estar aquí, en este momento."
       }
     ],
+
     "estres": [
       {
         "id": "estres_01",
@@ -41,70 +53,124 @@
       },
       {
         "id": "estres_02",
-        "texto": "Parece que llevas mucho peso sobre tus hombros. Recuerda que hacer pausas no es de débiles, es de inteligentes. ¿Puedes tomarte 5 minutos solo para ti?"
+        "texto": "Parece que llevas mucho peso sobre tus hombros. Recordá que hacer pausas no es de débiles, es de inteligentes."
+      },
+      {
+        "id": "estres_03",
+        "texto": "No estás obligado/a a poder con todo hoy. Podés elegir una sola cosa y hacer solo eso. Es suficiente."
+      }
+    ],
+
+    "enojo": [
+      {
+        "id": "enojo_01",
+        "texto": "Está bien sentir enojo. Es una emoción legítima. No la reprimas, pero tampoco dejes que te controle. Hablemos de qué lo provocó."
+      },
+      {
+        "id": "enojo_02",
+        "texto": "Respirá. No tomes decisiones mientras estás molesto/a. Es mejor calmar el fuego antes de mover nada."
+      }
+    ],
+
+    "soledad": [
+      {
+        "id": "soledad_01",
+        "texto": "Aunque ahora te sientas solo/a, quiero que sepas que no estás solo/a. Estoy acá con vos."
+      },
+      {
+        "id": "soledad_02",
+        "texto": "A veces la soledad no es falta de compañía, sino falta de alguien que nos entienda. Y eso duele. Pero no dura para siempre."
+      }
+    ],
+
+    "cansancio": [
+      {
+        "id": "cansancio_01",
+        "texto": "Estar cansado no significa ser débil. Significa que has estado siendo fuerte por demasiado tiempo. Podés descansar."
+      },
+      {
+        "id": "cansancio_02",
+        "texto": "Tu cuerpo y tu mente están hablando. Escuchalos. Un pequeño descanso ahora puede cambiar todo."
       }
     ]
   },
+
   "falta_de_motivacion": [
     {
       "id": "motivacion_01",
-      "texto": "La motivación a veces no llega, ¡se crea! ¿Qué te parece si empezamos con algo muy pequeño? Como beber un vaso de agua o estirar los brazos. Un pequeño logro puede encender la chispa."
+      "texto": "La motivación a veces no llega, ¡se crea! Empecemos con algo muy pequeño. Lo pequeño también cuenta."
     },
     {
       "id": "motivacion_02",
-      "texto": "Recuerda tu 'porqué'. ¿Cuál fue la razón por la que empezaste este camino? Conectar con ese propósito puede recargar tus energías."
+      "texto": "Recordá tu 'porqué'. Eso es tu motor."
     },
     {
       "id": "motivacion_03",
-      "texto": "No todos los días son para ser productivos al 100%. A veces, descansar es lo más productivo que puedes hacer. ¿Quizás hoy es un día para cuidarte y recargar baterías?"
+      "texto": "No todos los días son para rendir al máximo. A veces el descanso también es parte del progreso."
+    },
+    {
+      "id": "motivacion_04",
+      "texto": "Hacelo aunque sea con 1% de energía. El 1% constante te cambia la vida."
     }
   ],
+
   "autoestima_baja": [
     {
       "id": "autoestima_01",
-      "texto": "Por favor, háblate con la misma amabilidad que le hablarías a un buen amigo. Eres valioso/a exactamente como eres. ¿Puedes nombrar una cosa que te guste de ti?"
+      "texto": "Háblate con amabilidad. Sos importante."
     },
     {
       "id": "autoestima_02",
-      "texto": "Has superado el 100% de tus peores días hasta hoy. Eres mucho más fuerte de lo que crees. No dejes que una duda momentánea borre todo tu progreso."
+      "texto": "Has sobrevivido a todo lo que creíste que no podías. Eso no es casualidad."
     },
     {
       "id": "autoestima_03",
-      "texto": "Tu valor no se mide por tu productividad o tus logros. Eres valioso/a por el simple hecho de existir. ¡Nunca lo olvides!"
+      "texto": "Tu valor no se mide por productividad ni logros. Existís, y eso basta."
     }
   ],
+
   "celebracion_logros": [
     {
       "id": "logro_01",
-      "texto": "¡Eso es fantástico! 🎉 ¡Celebremos esa victoria, por pequeña que sea! Te mereces todo el reconocimiento por tu esfuerzo. ¡Estoy muy orgulloso/a de ti!"
+      "texto": "¡Eso es fantástico! 🎉 Celebralo. Te lo ganaste."
     },
     {
       "id": "logro_02",
-      "texto": "¡Maravilloso! No olvides tomarte un momento para disfrutar de este logro. Cada paso en tu camino cuenta y este es uno muy importante."
+      "texto": "¡Maravilloso! Permitite sentir orgullo."
+    },
+    {
+      "id": "logro_03",
+      "texto": "Cada victoria, por pequeña que sea, suma a tu historia. ¡Bien hecho!"
     }
   ],
+
   "frases_inspiradoras_generales": [
     {
       "id": "cita_01",
-      "texto": "Recuerda: 'El secreto para salir adelante es empezar'. No necesitas tenerlo todo resuelto, solo dar el primer paso."
+      "texto": "El secreto para avanzar es empezar."
     },
     {
       "id": "cita_02",
-      "texto": "La única persona que te acompaña toda tu vida eres tú mismo. Asegúrate de disfrutar de tu propia compañía."
+      "texto": "Tu compañía es el hogar donde siempre vivirás. Hacelo un buen lugar."
     },
     {
       "id": "cita_03",
-      "texto": "No te compares con los demás. Compara tu yo de hoy con tu yo de ayer. Ese es el único progreso que importa."
+      "texto": "Comparate solo con tu versión de ayer."
+    },
+    {
+      "id": "cita_04",
+      "texto": "Incluso la noche más larga termina con un amanecer."
     }
   ],
+
   "despedidas": [
     {
       "id": "despedida_01",
-      "texto": "Ha sido un placer hablar contigo. Recuerda ser amable contigo mismo/a. ¡Estaré aquí si me necesitas!"
+      "texto": "Gracias por compartir este momento. Te merecés paz. Aquí estoy para cuando vuelvas."
     },
     {
       "id": "despedida_02",
-      "texto": "Sigue adelante, lo estás haciendo genial. ¡Que tengas un resto del día tranquilo y lleno de paz!"
+      "texto": "Seguí adelante, a tu ritmo. Lo estás haciendo bien."
     }
   ]
 }
